@@ -1,4 +1,4 @@
-# 🍫 Portable NIR Spectroscopy System for Early Black Pod Rot Detection
+# Portable NIR Spectroscopy System for Early Black Pod Rot Detection
 
 SpectraCao is a portable, non-invasive NIR spectroscopy system that uses an AS7265X multispectral sensor, Raspberry Pi 4 Model B, and Partial Least Squares Discriminant Analysis (PLS-DA) to detect spectral changes associated with early-stage Black Pod Rot in cacao pods.
 
@@ -8,7 +8,7 @@ The system captures spectral data from cacao pods, preprocesses the signals to r
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 ### Hardware
 - Raspberry Pi 4 Model B – main processing unit
@@ -51,38 +51,38 @@ The AS7265X provides discrete spectral measurements, while the Raspberry Pi hand
   </tr>
 </table>
 
-## ✨ Features
+## Features
 
-### 📡 NIR Spectral Sensing
+### NIR Spectral Sensing
 Captures reflected spectral information from cacao pod surfaces.
 
-### 🧹 Spectral Preprocessing
+### Spectral Preprocessing
 - Savitzky-Golay filtering reduces high-frequency noise.
 - SNV and UNV reduce scatter and intensity variations.
 
-### 🤖 PLS-DA Classification
+### PLS-DA Classification
 Classifies cacao pods according to learned spectral patterns.
 
-### 📊 Model Validation
+### Model Validation
 Uses K-Fold Cross-Validation and ROC-AUC analysis to evaluate model performance.
 
-### 🌱 Non-Invasive Monitoring
+### Non-Invasive Monitoring
 Allows the same cacao pods to be repeatedly monitored without destructive sampling.
 
-### 📱 Portable Field Device
+### Portable Field Device
 Raspberry Pi-based architecture allows processing directly on the device.
 
-### 📏 Extendable Measurement Arm
+### Extendable Measurement Arm
 Features an extendable arm reaching up to 600 mm, allowing flexible and non-contact spectral measurements of cacao pods.
 
-### 🖥️ Real-Time Output
+### Real-Time Output
 Displays pod health classification through an OLED screen.
 
 The software pipeline runs on the Raspberry Pi and covers spectral acquisition, preprocessing, classification, and model validation.
 
 ---
 
-## 🔬 How It Works
+## How It Works
 
 ```
 Cacao Pod
@@ -108,7 +108,7 @@ The system follows a sensor → processor → output architecture. The AS7265X c
 
 ---
 
-## 🧪 The Process
+## The Process
 
 ### 1. Research & Problem Definition
 
@@ -176,7 +176,7 @@ Pods were monitored over time, and classifications were compared against their s
 
 ---
 
-## 🧠 What I Learned
+## What I Learned
 
 This project allowed me to work across electronics, embedded systems, spectroscopy, data processing, and machine learning rather than treating them as separate disciplines.
 
@@ -208,7 +208,7 @@ This project allowed me to work across electronics, embedded systems, spectrosco
 
 ---
 
-## 🚀 How It Can Be Improved
+## How It Can Be Improved
 
 The manuscript identifies several directions for future development:
 
